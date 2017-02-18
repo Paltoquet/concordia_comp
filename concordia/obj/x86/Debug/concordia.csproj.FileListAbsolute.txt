@@ -1,0 +1,9 @@
+C:\Users\user\Documents\SharpDevelop Projects\concordia\concordia\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\user\Documents\SharpDevelop Projects\concordia\concordia\bin\Debug\concordia.pdb
+C:\Users\user\Documents\SharpDevelop Projects\concordia\concordia\bin\Debug\Beans.dll
+C:\Users\user\Documents\SharpDevelop Projects\concordia\concordia\obj\x86\Debug\concordia.dll
+C:\Users\user\Documents\SharpDevelop Projects\concordia\concordia\obj\x86\Debug\concordia.pdb
+C:\Users\user\Documents\SharpDevelop Projects\concordia\concordia\bin\Debug\concordia.dll
+C:\Users\user\Documents\SharpDevelop Projects\concordia\concordia\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Documents\SharpDevelop Projects\concordia\concordia\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\user\Documents\SharpDevelop Projects\concordia\concordia\bin\Debug\Newtonsoft.Json.xml

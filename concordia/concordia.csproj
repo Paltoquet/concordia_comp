@@ -1,0 +1,66 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{C25335EE-C19B-493C-ADD0-95F949BADA97}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>concordia</RootNamespace>
+    <AssemblyName>concordia</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Import Include="Beans" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Captor.cs" />
+    <Compile Include="CloudBean.cs" />
+    <Compile Include="ConcordiaWeb.cs">
+      <DependentUpon>ConcordiaWeb.asmx</DependentUpon>
+    </Compile>
+    <Compile Include="Config.cs" />
+    <Compile Include="LightBean.cs" />
+    <Compile Include="PhTimer.cs" />
+    <Compile Include="Process.cs" />
+    <Compile Include="PumpTimer.cs" />
+    <Compile Include="WebServer.cs" />
+    <Reference Include="Beans">
+      <HintPath>..\..\..\..\..\..\Program Files %28x86%29\SharpDevelop\3.0\AddIns\WCompAddIn\Beans.dll</HintPath>
+    </Reference>
+    <Reference Include="concordia, Version=1.0.6233.30170, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="concordia, Version=1.0.6237.27897, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="InterfaceTranslators, Version=3.2.1.1, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Bin\Net35\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>..\..\..\..\..\..\Windows\Microsoft.NET\Framework\v2.0.50727\System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <HintPath>..\..\..\..\..\..\Windows\Microsoft.NET\Framework\v2.0.50727\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="The_Diving_Concord.UPnP2Bean, Version=3.2.1.1, Culture=neutral, PublicKeyToken=null" />
+    <None Include="ConcordiaWeb.asmx" />
+  </ItemGroup>
+</Project>
