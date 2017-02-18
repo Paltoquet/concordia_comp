@@ -5,7 +5,7 @@ Vous disposez du code source de nos différents composants WCOMP
 - Process Bean contient toute la partie métier
 - PumpTimer permet d'éteindre la pompe après un certain délais
 - PhTimer permet d'attendre la fin d'un cycle de changement d'eau
-- CloudBean permet d'échanger des informations avec le serveru web
+- CloudBean permet d'échanger des informations avec le serveur web
 
 ##Installation
 
