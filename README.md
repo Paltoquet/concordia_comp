@@ -11,7 +11,7 @@ Vous disposez du code source de nos différents composants WCOMP
 
 - Ouvrir la solution dans SharpDevelop
 - Cliquer sur `Build`
-- Récuperer le bean concordia.dll, ajoutez le dans votre répertoire WCOMP.NET
-- Ajouter le bean TheDivingConcarUPnP à votre répertoire, il s'agit du proxy UPnP disponible dans Bean à la racine
+- Récuperer le bean `concordia.dll`, ajoutez le dans votre répertoire WCOMP.NET
+- Ajouter le bean `TheDivingConcarUPnP.dll` à votre répertoire, il s'agit du proxy UPnP disponible dans Bean à la racine
 - Créer un nouveau container et ouvrez le fichier `tmp.wcc`
 - Cliquer sur le Bean DivingConcord et remplacez l'ip par l'addresse de votre serveur tournant sur la rapsberry
