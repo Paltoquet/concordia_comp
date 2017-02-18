@@ -1,50 +1,16 @@
-Json.NET
+#WCOMP
 
-http://www.newtonsoft.com/json
-https://github.com/JamesNK/Newtonsoft.Json
+Vous disposez du code source de nos différents composants WCOMP
 
+-Process Bean contient toute la partie métier
+-Timer permet d'éteindre la pompe après un certain délais
+-PhTimer permet d'attendre la fin d'un cycle de changement d'eau
 
-Description:
+##Installation
 
-Json.NET is a popular high-performance JSON framework for .NET
-
--Flexible JSON serializer for converting between .NET objects and JSON
--LINQ to JSON for manually reading and writing JSON
--High performance, faster than .NET's built-in JSON serializers
--Write indented, easy to read JSON
--Convert JSON to and from XML
--Supports .NET 2, .NET 3.5, .NET 4, .NET 4.5, Silverlight, Windows Phone and Windows 8 Store
-
-
-Documentation:
-
-http://www.newtonsoft.com/json/help/
-
-
-Versions:
-
-Json.NET has different libraries for the various .NET Framework versions.
-
--Net45:
-  .NET latest (4.5)
-
--Net40:
-  .NET 4.0
-
--Net35:
-  .NET 3.5
-
--Net20:
-  .NET 2.0, Unity
-
--Portable45:
-  .NET 4.5, Windows Phone 8, Windows 8 Store, .NET Core
-
--Portable40:
-  .NET 4.0, Windows Phone 8, Windows 8 Store, Silverlight 5, MonoTouch, MonoDroid
-
-
-Notes:
-
-For a Compact Framework 3.5 and Silverlight 3.0 builds download Json.NET 3.5
-For a Silverlight 4.0 and Windows Phone 7 builds download Json.NET 5
+-Ouvrir la solution dans SharpDevelop
+-Cliquer sur `Build`
+-Récuperer le bean concordia., ajouter le dans votre répertoire WCOMP.NET
+-Ajouter le bean DivingConcord à votre répertoire, il s'agit du proxy UPnP
+-Créer un nouveau container et ouvrez le fichier `tmp.wcc`
+-Cliquer sur le Bean DivingConcord et remplacez l'ip par l'addresse de votre serveur tournant sur la rapsberry
